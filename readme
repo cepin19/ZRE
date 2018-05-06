@@ -1,0 +1,4 @@
+cte WAV soubory (je treba predelat na .raw)
+nejprve python train_codebook.py - natrenuje codebooky pro gain a lpc koeficienty na souborech ze slozky data
+potom python code.py test.wav test.cod
+a nakonec python decode.py test.cod out.wav
